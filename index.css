@@ -1,0 +1,38 @@
+
+
+body {
+  font-family: 'Cantata One', serif, 'Imprima', sans-serif;
+  text-align: center;
+  font-size: 13px;
+}
+
+.navbar a {
+  color: black;
+  font-size: 1.5em;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:focus {
+    color: turquoise;
+    background-color: white;
+    border: 1px solid turquoise;
+    border-radius: .2em;
+
+  }
+
+.gray {
+  color: gray;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+
+
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+
+}
