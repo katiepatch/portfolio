@@ -11,8 +11,8 @@
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <!-- Include font-awesome -->
+  <link rel="stylesheet" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -23,10 +23,11 @@
   <!-- Font family -->
   <link href='http://fonts.googleapis.com/css?family=Cantata+One|Imprima' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css.scss">
+
 </head>
 <body>
-
+<div id="wrap">
  <nav class="navbar navbar-transparent">
     <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -42,42 +43,67 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Code <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Ruby</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Artwork <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="http://katiepatch.com/">Paintings &#38; Drawings</a></li>
-            <li><a href="https://www.flickr.com/photos/katiepatch/">Photography</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul class="nav navbar-nav">
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </li>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>
 </nav>
 
+<div class="row images container-fluid">
+    <div class="col-xs-4">
+      <div class="thumbnail">
+        <a href="https://sleepy-caverns-8414.herokuapp.com/">
+          <img src="assets/images/homeSplashimage.jpg" class="img-responsive">
+          <div class="details">
+            <h2>Home Splash</h2>
+            <p>Dynamic browser homepage application.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-xs-4">
+      <div class="thumbnail">
+        <a href="http://www.placegant.me/">
+          <img src="assets/images/placegant.jpg" class="img-responsive">
+          <div class="details">
+            <h2>placeGant</h2>
+            <p>A service for pictures of Gant.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-xs-4">
+      <div class="thumbnail">
+        <a href="https://tts-resources.herokuapp.com/">
+          <img src="assets/images/tts_resources.jpg" class="img-responsive" class="redo">
+          <div class="details">
+            <h2>TTS Resources</h2>
+            <p>Compilation of coding resources.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<footer class="footer">
+  <div class="container-fluid">
+     <div class="row">
+        <div class="col-sm-9">
+          <p>&#169; 2015</p>
+        </div>
+        <div class="col-sm-3">
+          <ul class="list-inline right-links">
+            <li><a href="https://github.com/katiepatch" text="_blank"><i class="fa fa-github-square fa-2x"></i></a></li>
+            <li><a href="www.linkedin.com/in/katiepatch" text="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+</div>
 </body>
 </html>
