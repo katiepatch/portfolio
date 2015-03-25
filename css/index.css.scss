@@ -21,11 +21,15 @@ body {
   font-size: 1.5em;
 }
 
+.turquoise {
+  color:turquoise;
+}
+
 .navbar-transparent .navbar-nav > li > a:hover,
 .navbar-transparent .navbar-nav > li > a:focus {
     color: turquoise;
     background-color: white;
-
+    }
   }
 
 .gray {
@@ -48,6 +52,8 @@ body {
 .images {
   padding: 5%;
 }
+
+
 
 
 
@@ -114,4 +120,17 @@ a:hover {
   .col-sm-9 {
   text-align: left;
 }
+
+.about, .contact {
+  width: 50%;
+  padding-top: 5em;
+  .color {
+    color: turquoise;
+  }
+}
+
+.about {
+  text-align: justify;
+}
+
 
